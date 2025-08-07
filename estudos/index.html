@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Laingley Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    section {
+      background-color: white;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      margin-bottom: 10px;
+    }
+
+    input[type="text"] {
+      padding: 10px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #333;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Laingley Page</h1>
+    <p>Crie sua própria landing page personalizada</p>
+  </header>
+
+  <main>
+
+    <section>
+  <form>
+    <label for="titulo">Título:</label>
+    <input type="text" id="titulo" name="titulo" />
+
+    <label for="subtitulo">Subtítulo:</label>
+    <input type="text" id="subtitulo" name="subtitulo" />
+     <label for="corFundo">Cor de fundo:</label>
+<input type="color" id="corFundo" name="corFundo" value="#ffffff" />
+
+    <input type="submit" value="Criar Página" />
+
+  </form>
+</section>
+
+  </main>
+
+  <footer>
+    <p>&copy; Todos os direitos reservados ao Fernando</p>
+  </footer>
+
+</body>
+</html>
